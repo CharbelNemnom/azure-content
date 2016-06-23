@@ -113,7 +113,7 @@ This article illustrates how to use Azure Powershell with Azure Resource Manager
 
 1.  Set the vault context by running the following command:
 
-		Set-AzureRmSiteRecoveryVaultSettings -ARSVault $vault
+		Set-AzureRmSiteRecoveryVaultSettings -ASRVault $vault
 
 ## Step 4: Create a Hyper-V site and generate a new vault registration key for the site.
 
